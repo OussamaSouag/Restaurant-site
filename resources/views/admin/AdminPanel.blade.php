@@ -28,7 +28,7 @@
         </a>
 
         <!-- Orders -->
-        <a href="{{ route('admin.commandes') }}" class="flex items-center px-4 py-2 text-lg font-semibold text-gray-700 hover:bg-[#2E266F] hover:text-white rounded-lg transition duration-300 ease-in-out">
+        <a href="{{ route('admin.adminCommande') }}" class="flex items-center px-4 py-2 text-lg font-semibold text-gray-700 hover:bg-[#2E266F] hover:text-white rounded-lg transition duration-300 ease-in-out">
             <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a2 2 0 012-2h2a2 2 0 012 2v2m-3-10h.01M6 20h12a2 2 0 002-2V8a2 2 0 00-2-2H6a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
