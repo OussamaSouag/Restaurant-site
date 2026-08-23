@@ -50,6 +50,9 @@ Route::get('/adminProduct', function () {
 $products = Product::paginate(10); 
     return view('admin.AdminProduct', compact('products'));
 })->name('adminProduct');
+Route::get('/adminCommande', function () {
+    return view('admin.adminCommande', compact('commandes'));
+})->name('adminCommande');
 Route::get('/mes-commandes', [ProductController::class, 'myOrders'])->name('commandes');
 
 require __DIR__.'/auth.php';
